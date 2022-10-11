@@ -1,0 +1,220 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.btn{
+    border-radius: 0;
+}
+
+.tituloprensa{
+    color: #baff00;
+}
+
+.tittle{
+min-height: 250px;
+width: 100%;
+    color: white;
+    background-color: black;
+  
+    
+}
+
+.button_nav{
+    width: 7.2rem;
+    text-align: center;
+   
+}
+
+.btn1:hover{
+    border: 1px solid yellowgreen !important;
+    background-color: black !important;
+    color: white !important;
+}
+
+.button_nav:hover{
+    color: yellowgreen !important;
+  
+
+}
+
+.navbar{
+    position: absolute;
+    z-index: 1;
+    background-color: transparent;
+    font-size: 28;
+    width: 100%;
+}
+
+
+.carousel-caption{
+    position: absolute;
+    top: 250px;
+  
+    
+}
+
+h6{
+    text-align: start;
+    width: 60%;
+    font-size: 50px;
+    color: yellowgreen;
+}
+
+.calificaciones img{
+width: 100%;
+height: 50%;
+}
+
+.contenedor{
+    width: 100%;
+    min-height:200px;
+   
+   
+}
+
+
+
+.prensa{
+ 
+
+    background-image:url("https://mindhubweb.com/img/banner_prensa.a10249e3.webp") ;
+    background-position: center;
+    background-size:cover;
+    min-height: 55vh;
+    
+    
+}
+
+.btn2{
+    background-color: #baff00;
+    margin-bottom: 10px;
+    border-radius: 5mm;
+    width: 150px;
+}
+.paginas{
+    min-height: 500px;
+    
+}
+
+.formulario{
+   
+    background-image: url("https://info.mindhubweb.com/hubfs/formulario.jpg");
+    background-size: cover;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  
+    height: 100vh;
+  
+    font-size: 12px;
+}
+
+.tittleform{
+  
+    width: 50%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+}
+.contenedor_formulario{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+
+
+}
+
+.botonenviar{
+    color: white;
+    background-color: rgb(53, 50, 50);
+    border-radius: 5mm;
+    width: 8rem;
+    
+}
+
+input, select{
+   
+
+    color: grey;
+    border: 0ch;
+    border-radius: 2mm;
+    padding: 10px;
+    
+}
+
+label{
+    margin-top: 10px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  outline: black;
+  background-size: 100%, 100%;
+  background-image: none;
+}
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: #17d617;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: #17d617;
+}
+
+footer{
+    color: white;
+    min-height: 60vh;
+    width: 100vw;
+    margin: 0 !important;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+}
+
+.text-green{
+    color: #baff00;
+   
+}
+
+.text-pink{
+    color: rgb(189, 19, 166);
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 3px rgb(0, 0, 0); 
+    background-color: rgb(7, 4, 4);
+
+  }
+  ::-webkit-scrollbar-thumb {
+    background:rgb(0, 17, 255); 
+    border: 4px solid rgb(0, 0, 0);
+    border-radius: 12px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(0, 119, 255); 
+  }
